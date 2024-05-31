@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color: white;
+}
+h2{
+    font-size: 90px;
+    text-align: center;
+    background-color: deepskyblue;   
+}
+#image{
+    width: 400x;
+    height: 350px;
+    border-radius: 22px;
+    border: 2px solid white;
+}
+#image:hover{
+    width: 500px;
+}
+h3{
+    color: red;
+    font-size: 35px;
+}p{
+    font-size: 18px;
+}
+
+#images{
+    width: 320px;
+    height: 200px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+#images:hover{
+    width: 400px;
+    outline: 1.9px solid blue;
+}
+#images, .set{
+    display: flex;
+    align-items: center;
+    margin: 14px;
+}
